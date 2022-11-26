@@ -1,0 +1,81 @@
+.todoContainer {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.todoCreateForm {
+  gap: 15px;
+  display: flex;
+  padding-bottom: 10px ;
+}
+.todoInput {
+  flex-grow: 1;
+  padding: 10px;  
+  border-radius: 5px;
+  border: solid 1px rgb(128, 128, 128)
+}
+.buttonCreate {
+  border: solid 1px rgb(69, 69, 231);
+  border-radius: 5px;
+  padding: 10px;  
+  background-color: rgb(69, 69, 231);
+  color: white; 
+  width: 100px; 
+}
+
+
+.todosContainer{
+  display: flex;
+  flex-direction: column;  
+  gap: 5px;
+  padding: 15px;
+}
+
+.todoUpdateForm,
+.todoInfo {
+  display: flex;  
+  gap: 15px
+}
+
+.todoTitle {
+  font-size: 20px;
+  flex: 1;
+}
+
+.btn-edit{
+  border: solid 1px rgb(100, 100, 228);
+  border-radius: 5px;
+
+  padding: 10px;  
+  background-color: rgb(100, 100, 228);
+  color: white;
+}
+
+.btn-delete{
+  border: solid 1px rgb(231, 69, 69);
+  border-radius: 5px;
+
+  padding: 10px;  
+  background-color: rgb(231, 69, 69);
+  color: white;
+}
+
+
+.todoUpdateFormValue {
+  flex: 1;
+  flex-grow: 1;
+  padding: 10px;  
+  border-radius: 5px;
+  border: solid 1px rgb(128, 128, 128)
+}
+
+.btn-update{
+  border: solid 1px rgb(88, 231, 69);
+  border-radius: 5px;
+  width: 100px;
+  padding: 10px;  
+  background-color: rgb(88, 231, 69);
+  color: white;
+}
